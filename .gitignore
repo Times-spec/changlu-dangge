@@ -1,0 +1,39 @@
+# Dependencies and reproducible build output
+node_modules/
+/dist/
+/deployment/cloudflare/runtime/
+/deployment/cloudflare/dist/
+/deployment/cloudflare/deployment-files.json
+
+# Local deployment state, scratch files and generated captures
+/.wrangler/
+/sites/
+/tmp/
+/qa/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.blend[0-9]
+
+# Generated presentation materials
+/production/film_*.mp4
+/docs/boards/
+/docs/boards.html
+/docs/design.html
+/docs/flow.html
+/docs/设计说明.pdf
+/docs/交互流程图.pdf
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.dpapi
+.DS_Store
+Thumbs.db
